@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/ee76d54e67.js" crossorigin="anonymous"></script>
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="option-box">
+            <button id="timer">Timer</button>
+            <button id="stopwatch">Stopwatch</button>
+        </div>
+        <div class="time">
+            <h2 id="timeRef">00 : 00 : 00 </h2>
+            <button id="stop"><i class="fa-solid fa-pause"></i></button>
+            <button id="reset"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+        <div class="timer-options">
+            <p>Hours: <input id="hours" type="number" min="0" max="59"></p> 
+            <p>Minutes: <input id="minutes" type="number" min="0" max="59"></p> 
+            <p>Seconds: <input id="seconds" type="number" min="0" max="59"></p> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
